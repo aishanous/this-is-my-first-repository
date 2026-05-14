@@ -1,0 +1,12 @@
+import time 
+hour= int(time.strftime('%H'))
+print(hour)
+if( hour<10):
+    print("GOOD MOARNING MAAM")
+    print("EVERYDA IS NEW BEGINNING")
+elif( hour>=10 and hour <= 18):
+    print("GOOD EVENING MAAM ")
+    print("Sham, chai, a few more lines of code.") 
+else:
+    print("GOOD NIGHTMAAM")
+    print( "congrats u did u best today")
