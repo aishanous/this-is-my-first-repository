@@ -1,0 +1,15 @@
+NAME =input("ENTER YOUR NAME ")
+print ("ALRIGHT , welcome to my kbs" )
+print(" YOUR FIRST QUESTION IS ON THE SCREEN")
+Q1= { "What is the fragile thing  on this world?":{
+     "options": ["Glass", "trust", "Wood", "Metal"],
+     "answer": "trust"
+        }
+}
+print("What is the most fragile thing on the world?")
+print(Q1["What is the fragile thing  on this world?"]["options"])
+answer= input( "ENTER YOUR ANSWER ")
+if answer == Q1["What is the fragile thing  on this world?"]["answer"]:
+    print("CONGRATS ", NAME, "SHI JAWAB")
+
+
